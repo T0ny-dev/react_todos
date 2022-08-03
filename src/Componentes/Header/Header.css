@@ -1,0 +1,13 @@
+.header {
+  background-color: #0D0D0D;
+  display: flex;
+  justify-content: center;
+}
+
+.header__title {
+  font-size: 45px;
+  background: #16E6FC;
+  background: radial-gradient(circle farthest-corner at center center, #16E6FC 13%, #FBB8C1 100%, #B4F8BD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

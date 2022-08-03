@@ -1,0 +1,30 @@
+table {
+  width: 70vw;
+  border-spacing: 0px;
+}
+
+th, td {
+  width: 33%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;  
+}
+
+
+th {
+  background-color: #ffffff;
+  height: 35px;
+  color: #0f0f0f;
+}
+
+
+@media (max-width: 800px) {
+  th, td {
+    padding-left: 30px;
+  }
+}
+
+
+
+
